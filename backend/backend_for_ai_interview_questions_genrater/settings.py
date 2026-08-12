@@ -34,11 +34,11 @@ ALLOWED_HOSTS = [
 
 
 # Application definition
-# CORS_ALLOW_ALL_ORIGINS =  [
+CORS_ALLOW_ALL_ORIGINS =  [
    
-#     "https://ai-resume-interviewer-seven.vercel.app",
-#     "http://localhost:5173",
-# ]
+    # "https://ai-resume-interviewer-seven.vercel.app",
+    # "http://localhost:5173",
+]
 
 CORS_ALLOW_CREDENTIALS = True
 
