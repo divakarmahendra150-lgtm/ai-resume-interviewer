@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-hma@-a=23%!=m6t-)4ykl*n_%47q7_=ytk)5dll46q^__hv_%c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [   
     "ai-resume-interviewer-n4xr.onrender.com",
