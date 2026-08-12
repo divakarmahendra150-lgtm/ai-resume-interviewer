@@ -27,6 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [   
     "ai-resume-interviewer-n4xr.onrender.com",
+    "https://ai-resume-interviewer-seven.vercel.app/"
     "localhost",
     "127.0.0.1",
 ]
