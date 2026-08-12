@@ -61,7 +61,7 @@ function App() {
 
       formData.append("resume", file);
 
-      const response = await fetch(API_URL, {
+      const response = await fetch(`${API_URL}`, {
         method: "POST",
         body: formData,
       });
