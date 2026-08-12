@@ -1,0 +1,7 @@
+Django
+djangorestframework
+django-cors-headers
+PyMuPDF
+groq
+python-dotenv
+gunicorn
