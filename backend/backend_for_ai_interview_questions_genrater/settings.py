@@ -25,11 +25,18 @@ SECRET_KEY = 'django-insecure-hma@-a=23%!=m6t-)4ykl*n_%47q7_=ytk)5dll46q^__hv_%c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [   
+    "ai-resume-interviewer-n4xr.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS =  [
+   
+    "https://ai-resume-interviewer-seven.vercel.app/"
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
