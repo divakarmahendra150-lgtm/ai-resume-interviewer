@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
-const API_URL = "http://127.0.0.1:8000/api/resume/";
+const API_URL = "https://ai-resume-interviewer-n4xr.onrender.com/api/resume/";
 
 function App() {
   const inputRef = useRef(null);
