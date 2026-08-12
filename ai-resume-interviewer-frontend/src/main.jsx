@@ -61,7 +61,9 @@ function App() {
 
       formData.append("resume", file);
 
-      const response = await fetch("https://ai-resume-interviewer-n4xr.onrender.com/api/resume/", {
+      const response = await fetch(
+        "https://ai-resume-interviewer-n4xr.onrender.com/api/resume/", 
+        {
         method: "POST",
         body: formData,
       });
