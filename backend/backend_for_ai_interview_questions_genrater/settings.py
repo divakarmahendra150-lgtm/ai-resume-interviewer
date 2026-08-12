@@ -27,7 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [   
     "ai-resume-interviewer-n4xr.onrender.com",
-    "https://ai-resume-interviewer-seven.vercel.app/"
+    "https://ai-resume-interviewer-seven.vercel.app"
     "localhost",
     "127.0.0.1",
 ]
@@ -36,8 +36,10 @@ ALLOWED_HOSTS = [
 # Application definition
 CORS_ALLOW_ALL_ORIGINS =  [
    
-    "https://ai-resume-interviewer-seven.vercel.app/"
+    "https://ai-resume-interviewer-seven.vercel.app"
 ]
+
+CORS_ALLOW_CREDENTIALS = True
 
 INSTALLED_APPS = [
     'django.contrib.admin',
