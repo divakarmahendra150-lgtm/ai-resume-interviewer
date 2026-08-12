@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-hma@-a=23%!=m6t-)4ykl*n_%47q7_=ytk)5dll46q^__hv_%c
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "ai-resume-interviewer-n4xr.onrender.com",
+    "https://ai-resume-interviewer-n4xr.onrender.com/api/resume/",
     "localhost",
     "127.0.0.1",
 ]
